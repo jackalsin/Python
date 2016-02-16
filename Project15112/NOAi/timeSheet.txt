@@ -1,0 +1,19 @@
+Sunday 3 hours
+Monday 6 hours
+Tuesday 3 hours
+Wednesday 3 hours
+Thursday 4 hours
+Friday 3 hours
+Saturday 8 hours
+Sunday 5 hours
+Monday 3 hours
+Tuesday 
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday 6 hours
+Monday 7 hours
+Tuesday 11 hours
+Wednesday 17 hours
+Thurday 4 hours
