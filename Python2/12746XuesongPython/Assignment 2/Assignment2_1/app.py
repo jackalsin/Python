@@ -1,6 +1,7 @@
-from Student import Student
-from Advisor import Advisor
-from Course import Course
+from Academic.Advisor import Advisor
+from Academic.Course import Course
+
+from Assignment2_1.Academic.Student import Student
 
 advisor1 = Advisor()
 advisor1.name = 'Pine Liu'

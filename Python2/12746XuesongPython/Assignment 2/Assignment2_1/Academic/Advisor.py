@@ -1,12 +1,9 @@
-class Advisor:
-    name = ''
-    age = 0
-    researchTopic = ''
-    department = ''
-    salary = 0
+from AbstractHuman import AbstractHuman 
 
-    def printName(self):        # This method will just print out the student's name
-        print self.name
+class Advisor(AbstractHuman):
+
+    researchTopic = ''
+    salary = 0
 
     def printDetail(self):
         print 'Name: '+self.name+'.'
