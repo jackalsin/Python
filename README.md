@@ -7,3 +7,7 @@ Please do not copy paste code to submit. You will get trouble.
 * 15112 Introduction to Programming (Homework and Practice)
 * 15112 Term Project
 * 90812 Introduction to Python (Heinz)
+* AIS Project
+
+# Merge Reason
+Because probably I won't use python in the rest of my life. Why not checking the type ?
