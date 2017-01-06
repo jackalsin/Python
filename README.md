@@ -10,4 +10,4 @@ Please do not copy paste code to submit. You will get trouble.
 * AIS Project
 
 # Merge Reason
-Because probably I won't use python in the rest of my life. Why not checking the type ?
+Multiple course homework
