@@ -1,0 +1,1019 @@
+how many lines we have 6
+
+now we are dealing with i= 0
+now we are dealing with i= 1
+Now we are in step 2 L0 - A0 A1
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+the item we are dealing with A1
+the string we are dealing with 1
+Now we are printign operands [6, 5]
+now after that  i= 1
+now we are dealing with i= 2
+!!now we are in the JMP+,I= 2 a0
+the item we are dealing with L0
+the string we are dealing with 0
+the label is at 4
+we are jumping to i= 5
+now we are dealing with i= 5
+we are dealing with returning satement ['RTN', 'A0']
+the item we are dealing with A0
+the string we are dealing with 0
+Final result 6
+how many lines we have 12
+
+now we are dealing with i= 0
+now we are dealing with i= 1
+now we are dealing with i= 2
+Now we are in step 2 L0 0
+the string we are dealing with 0
+the string we are dealing with 0
+now after that  i= 2
+now we are dealing with i= 3
+Now we are in step 2 L1 0
+the string we are dealing with 1
+the string we are dealing with 0
+now after that  i= 3
+now we are dealing with i= 4
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [0, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [0, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [0, 1]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [1, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [1, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [1, 2]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [2, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [2, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [3, 3]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [3, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [3, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [6, 4]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [4, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [4, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [10, 5]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [5, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [5, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [15, 6]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [6, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [6, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [21, 7]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [7, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [7, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [28, 8]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [8, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [8, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [36, 9]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [9, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [9, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [45, 10]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [10, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 11
+we are dealing with returning satement ['RTN', 'L1']
+the item we are dealing with L1
+the string we are dealing with 1
+runSumtoN 55
+Testing lookAndSay()...Passed. (Add more tests to be more sure!)
+Testing inverseLookAndSay()...Passed. (Add more tests to be more sure!)
+Testing solvesCryptarithm()...the string we are dealing with 9567
+the string we are dealing with 1085
+the string we are dealing with 10652
+the string we are dealing with 7859
+the string we are dealing with 112
+the string we are dealing with 7971
+Passed. (Add more tests to be more sure!)
+Testing linearRegression()...Passed. (Add more tests to be more sure!)
+Testing bestScrabbleScore()...(['xyz', 'zxy'], 10)
+Passed. (Add more tests to be more sure!)
+Testing runSimpleProgram()...how many lines we have 6
+
+now we are dealing with i= 0
+now we are dealing with i= 1
+Now we are in step 2 L0 - A0 A1
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+the item we are dealing with A1
+the string we are dealing with 1
+Now we are printign operands [5, 6]
+now after that  i= 1
+now we are dealing with i= 2
+!!now we are in the JMP+,I= 2 a0
+the item we are dealing with L0
+the string we are dealing with 0
+we are jumping to i= 3
+now we are dealing with i= 3
+we are dealing with returning satement ['RTN', 'A1']
+the item we are dealing with A1
+the string we are dealing with 1
+how many lines we have 6
+
+now we are dealing with i= 0
+now we are dealing with i= 1
+Now we are in step 2 L0 - A0 A1
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+the item we are dealing with A1
+the string we are dealing with 1
+Now we are printign operands [6, 5]
+now after that  i= 1
+now we are dealing with i= 2
+!!now we are in the JMP+,I= 2 a0
+the item we are dealing with L0
+the string we are dealing with 0
+the label is at 4
+we are jumping to i= 5
+now we are dealing with i= 5
+we are dealing with returning satement ['RTN', 'A0']
+the item we are dealing with A0
+the string we are dealing with 0
+how many lines we have 12
+
+now we are dealing with i= 0
+now we are dealing with i= 1
+now we are dealing with i= 2
+Now we are in step 2 L0 0
+the string we are dealing with 0
+the string we are dealing with 0
+now after that  i= 2
+now we are dealing with i= 3
+Now we are in step 2 L1 0
+the string we are dealing with 1
+the string we are dealing with 0
+now after that  i= 3
+now we are dealing with i= 4
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [0, 5]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [0, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [0, 1]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [1, 5]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [1, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [1, 2]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [2, 5]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [2, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [3, 3]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [3, 5]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [3, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [6, 4]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [4, 5]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [4, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [10, 5]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [5, 5]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 11
+we are dealing with returning satement ['RTN', 'L1']
+the item we are dealing with L1
+the string we are dealing with 1
+how many lines we have 12
+
+now we are dealing with i= 0
+now we are dealing with i= 1
+now we are dealing with i= 2
+Now we are in step 2 L0 0
+the string we are dealing with 0
+the string we are dealing with 0
+now after that  i= 2
+now we are dealing with i= 3
+Now we are in step 2 L1 0
+the string we are dealing with 1
+the string we are dealing with 0
+now after that  i= 3
+now we are dealing with i= 4
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [0, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [0, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [0, 1]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [1, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [1, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [1, 2]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [2, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [2, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [3, 3]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [3, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [3, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [6, 4]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [4, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [4, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [10, 5]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [5, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [5, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [15, 6]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [6, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [6, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [21, 7]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [7, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [7, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [28, 8]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [8, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [8, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [36, 9]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [9, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 7
+Now we are in step 2 L0 + L0 1
+the string we are dealing with 0
+the item we are dealing with L0
+the string we are dealing with 0
+the string we are dealing with 1
+Now we are printign operands [9, 1]
+now after that  i= 7
+now we are dealing with i= 8
+Now we are in step 2 L1 + L1 L0
+the string we are dealing with 1
+the item we are dealing with L1
+the string we are dealing with 1
+the item we are dealing with L0
+the string we are dealing with 0
+Now we are printign operands [45, 10]
+now after that  i= 8
+now we are dealing with i= 9
+we are jumping to i= 5
+now we are dealing with i= 5
+Now we are in step 2 L2 - L0 A0
+the string we are dealing with 2
+the item we are dealing with L0
+the string we are dealing with 0
+the item we are dealing with A0
+the string we are dealing with 0
+Now we are printign operands [10, 10]
+now after that  i= 5
+now we are dealing with i= 6
+the item we are dealing with L2
+the string we are dealing with 2
+now we are dealing with i= 11
+we are dealing with returning satement ['RTN', 'L1']
+the item we are dealing with L1
+the string we are dealing with 1
+how many lines we have 1
+
+now we are dealing with i= 0
+we are dealing with returning satement ['RTN', '42']
+the string we are dealing with 42
+how many lines we have 4
+
+now we are dealing with i= 0
+we are jumping to i= 3
+now we are dealing with i= 3
+we are dealing with returning satement ['RTN', '2']
+the string we are dealing with 2
+how many lines we have 1
+
+now we are dealing with i= 0
+we are dealing with returning satement ['RTN', 'L42']
+the item we are dealing with L42
+the string we are dealing with 42
+how many lines we have 1
+
+now we are dealing with i= 0
+we are dealing with returning satement ['RTN', '+', '42', 'L42']
+the string we are dealing with 42
+the item we are dealing with L42
+the string we are dealing with 42
+[42, 0]
+Passed!
+Testing string2digit()...the string we are dealing with 0
+the string we are dealing with -123
+the string we are dealing with 323
+the string we are dealing with 383828830
+Passed. (Add more tests to be more sure!)
+Testing solution2List()...Passed. (Add more tests to be more sure!)
+Testing puzzle2List()...Passed. (Add more tests to be more sure!)
+Testing decode()...the string we are dealing with 1085
+the string we are dealing with 367
+the string we are dealing with 1085
+the string we are dealing with 01
+the string we are dealing with 2341
+the string we are dealing with 467831
+the string we are dealing with 01
+the string we are dealing with 2351
+the string we are dealing with 467891
+Passed. (Add more tests to be more sure!)
+Testing getStatement()...Passed. (Add more tests to be more sure!)
+Testing getArgs()...Passed. (Add more tests to be more sure!)
+Testing returnArgsValue()...the item we are dealing with A0
+the string we are dealing with 0
+the item we are dealing with A123
+the string we are dealing with 123
+the item we are dealing with L15
+the string we are dealing with 15
+Passed. (Add more tests to be more sure!)
+Testing returnArgsValue()...Passed. (Add more tests to be more sure!)
+Testing assignStatement()...the string we are dealing with 33
+the item we are dealing with A0
+the string we are dealing with 0
+the string we are dealing with 34
+Now we are printign operands [0, 34]
+the string we are dealing with 123
+the item we are dealing with A0
+the string we are dealing with 0
+the string we are dealing with 34
+Now we are printign operands [0, 34]
+the string we are dealing with 98
+the item we are dealing with A0
+the string we are dealing with 0
+the item we are dealing with L93
+the string we are dealing with 93
+Now we are printign operands [0, 17]
+Passed. (Add more tests to be more sure!)
+>>> 

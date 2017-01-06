@@ -1,0 +1,18 @@
+# quiz code tracing
+import copy
+def f(a):
+    return 10 * a[0][0]+ a[1][0]
+
+def ct2(a):
+    b = copy.copy(a)
+    c = copy.deepcopy(a)
+    d = a
+    e = a[0:len(a)]
+    c[0][0] = 1
+    d[0] = [2]
+    e[1] = [3]
+    b[0][0] = 4
+    print(f(b),f(c),f(e))
+a = [[6],[5]]
+ct2(a)
+print(f(a)) 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="drawingManagement.js"></script>
+
+    <title>Online Drawing Management System V0.1</title>
+</head>
+<body>
+
+    <select id="DrawingIDList" onchange="drawingInfoListChange();"></select>
+
+    <!-- Task 1.a - Please add the first two buttons here. -->
+    <button id="InitializeDrawing" onclick="initDrawings()">Initialize Drawing</button>
+    <button id="AddDrawingInfoToList" onclick="addDrawingInfoToList()">Add Drawing Info to List</button>
+    <table>
+        <tr>
+            <td>Building Name</td><td><input id="buildingNameInput"></td>
+        </tr>
+        <tr>
+            <td>Constructed Year</td><td><input id="constructedYearInput"></td>
+        </tr>
+        <tr>
+            <td>Contractor</td><td><input id="contractorInput"></td>
+        </tr>
+        <tr>
+            <td>Floor</td><td><input id="floorInput"></td>
+        </tr>
+        <tr>
+            <td>Shop</td><td><input id="shopInput"></td>
+        </tr>
+    </table>
+
+    <!-- Task 1.a - Please add the last three buttons here. -->
+    <button id="Add" onclick="addDrawing()">Add</button>
+    <button id="Update" onclick="updateDrawing()">Update</button>
+    <button id="Delete" onclick="deteleDrawing()">Delete</button>
+
+
+</body>
+</html>

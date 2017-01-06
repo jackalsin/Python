@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/allMemo.css">
+    <title>Memo</title>
+</head>
+<body>
+<div class="page-container">
+{#    header navigate bar #}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Django administration</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/admin/">Admin</a></li>
+            <li class="active"><a href="#">Memo</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a>Welcome JACKA</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <h1>Private Memos</h1>
+    <div id="cardZone" class="container pad-bot-50">
+    </div>
+</div>
+<script type="text/javascript" src="/static/js/jquery.js"></script>
+<script>
+
+    function getMemoChild(name, email, phone, text) {
+        var div = document.createElement("div");
+        div.setAttribute("class", "memo");
+        var rowDiv = document.createElement("div");
+        rowDiv.setAttribute("class", "row"); div.appendChild(rowDiv);
+        var cardOutDiv = document.createElement("div");
+        cardOutDiv.setAttribute("class", "card text-xs-center"); rowDiv.appendChild(cardOutDiv);
+        var cardHeader = document.createElement("h3"); cardHeader.setAttribute("class", "card-header"); cardHeader.innerHTML = name;
+        cardOutDiv.appendChild(cardHeader);
+        var cardBlock = document.createElement("div"); cardBlock.setAttribute("class", "card-block"); cardOutDiv.appendChild(cardBlock);
+        var cardEmail = document.createElement("h4"); cardEmail.setAttribute("class", "card-title"); cardEmail.innerHTML = email; cardBlock.appendChild(cardEmail);
+        var cardPhone = document.createElement("h4"); cardPhone.setAttribute("class", "card-title"); cardPhone.innerHTML = phone; cardBlock.appendChild(cardPhone);
+        var cardText = document.createElement("p"); cardText.setAttribute("class", "card-text"); cardText.innerHTML = text; cardBlock.appendChild(cardText);
+        cardBlock.appendChild(document.createElement("hr"));
+        return div;
+    }
+    $.ajax({
+        url: "/getMemo/", success: function (result) {
+            var allMemos = JSON.parse(result)["rtn"];
+            var cardZone = document.getElementById("cardZone");
+            if (allMemos) {
+                for (var i = 0; i < allMemos.length; i++) {
+                    var childMemo = allMemos[i];
+                    console.dir(childMemo);
+                    cardZone.appendChild(getMemoChild(childMemo["name"], childMemo["email"], childMemo["phone"], childMemo["text"] ))
+                }
+            }
+        }
+    });
+
+
+</script>
+</body>
+</html>

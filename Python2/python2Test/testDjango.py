@@ -1,4 +1,0 @@
-import django
-
-print "helloWorld"
-

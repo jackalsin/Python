@@ -1,0 +1,28 @@
+def isPerfectNumber(n):
+    sumFactor=0
+    for factor in range (1,n):
+        if (n%factor==0):
+            sumFactor+=factor
+
+        factor+=1
+    return sumFactor==n
+def nthPerfectNumber(n):
+    count=-1
+    guess=0
+    while (count<=n):
+        if isPerfectNumber(guess):
+            count+=1
+        guess+=1
+#    print (guess)
+    return guess-1 # replace with your solution
+
+def testNthPerfectNumber():
+    print("Testing nthPerfectNumber()...", end="")
+    assert(nthPerfectNumber(0) == 6)
+    assert(nthPerfectNumber(1) == 28)
+    assert(nthPerfectNumber(2) == 496)  # this can be slow in Brython
+    assert(nthPerfectNumber(3) == 8128) # this can be slow even in Standard Python!
+    print("Passed!")
+
+
+testNthPerfectNumber()

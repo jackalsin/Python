@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoListApp</title>
+    <script src="/static/todo.js"></script>
+</head>
+<body>
+<h1>This is your todo list</h1>
+<select id="taskSelect" onchange="onchangeHandler()">
+    <option value="Task1">Task 1</option>
+</select>
+<form>
+    <table>
+        <tr>
+            <td>
+                Description:
+            </td>
+            <td>
+                <input id="descriptionInput">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Due date:
+            </td>
+            <td>
+                <input id="dueDateInput">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Status:
+            </td>
+            <td>
+                <input type="checkbox" id="statusInput">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="addTask()">Add</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        loadTasks();
+    });
+
+</script>
+</body>
+</html>

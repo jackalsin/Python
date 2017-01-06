@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body onload="init()">
+
+<p>An example of the calculator</p>
+
+<table>
+    <tr><td colspan="4"><input id="display" style="width:300px;text-align:right;"></td></tr>
+    <tr>
+        <td><button>C</button></td>
+        <td><button onclick="append(0);">0</button></td>
+        <td><button onclick="evaluation();">=</button></td>
+        <td><button class="operator" onclick="append('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="append('7');">7</button></td>
+        <td><button onclick="append('8');">8</button></td>
+        <td><button onclick="append('9');">9</button></td>
+        <td><button class="operator">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="append('4');">4</button></td>
+        <td><button onclick="append('5');">5</button></td>
+        <td><button onclick="append('6');">6</button></td>
+        <td><button class="operator" onclick="append('*');">*</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="append('1');">1</button></td>
+        <td><button onclick="append('2');">2</button></td>
+        <td><button onclick="append('3');">3</button></td>
+        <td><button class="operator" onclick="append('/');">/</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="append('3');">.</button></td>
+    </tr>
+</table>
+<script>
+    expression = "";
+    canClear = false;
+
+    function append(val) {
+        expression += val;
+    }
+
+    function evaluation() {
+        expression = eval(expression);
+        document.getElementById(display).setAttribute("value", expression);
+    }
+</script>
+</body>
+</html>

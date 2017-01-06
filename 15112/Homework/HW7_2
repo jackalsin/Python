@@ -1,0 +1,122 @@
+# events-example0.py
+# Barebones timer, mouse, and keyboard events
+
+from tkinter import *
+
+####################################
+# customize these functions
+####################################
+
+def init(data):
+    data.mode = "mainScreen"
+    data.buttonWidth = data.width/2
+    data.buttonHeight = data.height/8
+
+def mousePressed(event, data):
+    # use event.x and event.y
+    pass
+
+def keyPressed(event, data):
+    # use event.char and event.keysym
+    pass
+
+def timerFired(data):
+    pass
+
+def redrawAll(canvas, data):
+    if (data.mode == "mainScreen"):
+        mainScreenRedrawAll(canvas,data)
+    elif (data.mode == "playTetris"):
+        playTetrisRedrawAll(canvas,data) 
+    elif (data.mode == "drawCirclePattern"):
+        drawCirclePatternRedrawAll(canvas,data)     
+    elif (data.mode == "drawSpiral"):
+        drawSpiralRedrawAll(canvas,data) 
+    elif (data.mode == "adaptedSnake"):
+        adaptedSnakeRedrawAll(canvas,data)    
+    elif (data.mode == "betterSideScroller"):
+        betterSideScrollerRedrawAll(canvas,data) 
+
+
+def mainScreenRedrawAll(canvas,data):
+    canvas.create_text(data.width/2, data.height/12,text = "Main Screen (m)", 
+                    fill = "black",  font="Helvetica 26 bold underline")
+    canvas.create_text(data.width/2, data.height/12*3,text = "playTetris (t)", 
+                    fill = "black",  font="Helvetica 26 bold underline")
+    canvas.create_text(data.width/2, data.height/12*5,text ="drawCirclePattern (c)", 
+                    fill = "black",  font="Helvetica 26 bold underline")
+    canvas.create_text(data.width/2, data.height/12*7,text = "drawSpiral (s)", 
+                    fill = "black",  font="Helvetica 26 bold underline")
+    canvas.create_text(data.width/2, data.height/12*9,text = "adaptedSnake (a)", 
+                    fill = "black",  font="Helvetica 26 bold underline")    
+    canvas.create_text(data.width/2, data.height/12*11,
+                            text = "betterSideScroller (b)", fill = "black",
+                            font="Helvetica 26 bold underline")
+ 
+    createScreenButton(canvas,data,6)
+
+
+def createScreenButton(canvas,data,buttonNumbers):
+    for i in range(0,buttonNumbers):
+        canvas.create_rectangle(data.width/2-data.buttonWidth/2, 
+            data.height/12*(2*i+1)-data.buttonHeight/2, 
+            data.width/2 +data.buttonWidth/2,
+            data.height/12*(2*i+1)+data.buttonHeight/2)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+####################################
+# use the run function as-is
+####################################
+
+def run(width=300, height=300):
+    def redrawAllWrapper(canvas, data):
+        canvas.delete(ALL)
+        redrawAll(canvas, data)
+        canvas.update()    
+
+    def mousePressedWrapper(event, canvas, data):
+        mousePressed(event, data)
+        redrawAllWrapper(canvas, data)
+
+    def keyPressedWrapper(event, canvas, data):
+        keyPressed(event, data)
+        redrawAllWrapper(canvas, data)
+
+    def timerFiredWrapper(canvas, data):
+        timerFired(data)
+        redrawAllWrapper(canvas, data)
+        # pause, then call timerFired again
+        canvas.after(data.timerDelay, timerFiredWrapper, canvas, data)
+    # Set up data and call init
+    class Struct(object): pass
+    data = Struct()
+    data.width = width
+    data.height = height
+    data.timerDelay = 100 # milliseconds
+    init(data)
+    # create the root and the canvas
+    root = Tk()
+    canvas = Canvas(root, width=data.width, height=data.height)
+    canvas.pack()
+    # set up events
+    root.bind("<Button-1>", lambda event:
+                            mousePressedWrapper(event, canvas, data))
+    root.bind("<Key>", lambda event:
+                            keyPressedWrapper(event, canvas, data))
+    timerFiredWrapper(canvas, data)
+    # and launch the app
+    root.mainloop()  # blocks until window is closed
+    print("bye!")
+
+run(900, 900)

@@ -1,0 +1,24 @@
+#div-black {
+    background-color:black;
+    color: white;
+}
+
+#table-black {
+    color:white;
+    border-color:white;
+}
+
+.Button{
+    position: absolute;
+    left:600px;
+    top: 30px;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 3px 3px;
+    text-align: center;
+    transition: background-color 3s;
+}
+
+.Button:hover {
+    background-color: black;
+}

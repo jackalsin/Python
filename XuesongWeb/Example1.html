@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.3.min.js"></script>
+
+<script>
+
+
+$(function(){
+	$("p").hide();
+	$("#hideBtnwID").mouseenter(function(){
+		$("#test").show();
+	});
+
+	$("#hideBtnwID").mouseleave(function(){
+		$("#test").hide();
+	});
+
+
+});
+
+
+
+
+function buttonClicked(selector)
+{
+	$(selector).show();
+	// $(selector).text("<a href='#'>This is the new content.</a>");
+	$(selector).text(function(index,origText)
+	{
+
+		return "This is the new text "+index;
+	});
+}
+
+
+
+</script>
+
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<button onclick="buttonClicked('p');">Show all paragraphs.</button>
+
+<button id="hideBtnwID">Show the paragraph with ID "test".</button>
+
+<p>This is a paragraph.</p>
+<p id="test">This is another paragraph.</p>
+
+<!-- <input id="inputText"> -->
+
+<select id="dropdownlist">
+<option>Choice 1</option>
+<option>Choice 2</option>
+</select>
+
+
+</body>
+</html>

@@ -1,4 +1,7 @@
 # Python
-Contains Both python 2 python 3 version 
+This repo contains several python course I took in CMU <br>
+Please do not copy paste code to submit. You will get trouble.
 
-BTW I hate python!!
+## Folder Structure
+* 12746 XueSong Python First Half
+* 15112 Introduction to Programming

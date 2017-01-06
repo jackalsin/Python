@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/font-awesome.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/jquery.bxslider.css">
+    <script src="/static/js/modernizr.custom.js"></script>
+</head>
+<body>
+<div class="navbar navbar-smak navbar-fixed-top " id="navbar" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i
+                    class="fa fa-bars"></i></button>
+            <a class="navbar-brand animate" href="#"><img src="/static/img/batman-logo.png" alt="logo1"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right animate">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#portfolio">Portfolio</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+
+<section id="services" class="gray">
+    <div class="branded-section process">
+        <div class="masked">
+            <div class="container">
+                <div class="heading">
+                    <h1 class="primary-color">Connect 4</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" onclick="loadRules()">
+                        <div class="process-item ">
+                            <i class="fa fa-flask fa-3x"></i>
+                            <h3>Rules</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" onclick="window.open('https://en.wikipedia.org/wiki/Connect_Four');">
+                        <div class="process-item delay1">
+                            <i class="fa fa-inbox fa-3x"></i>
+                            <h3>WikiLinks</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" onclick="loadScoreBoard()">
+                        <div class="process-item delay2">
+                            <i class="fa fa-gavel fa-3x"></i>
+                            <h3>Score Board</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="branded-section numbers">
+    <div class="masked">
+        <div class="container">
+            <div id="winParent" class="heading">
+                <h2 id="winMsgToDisplay"></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="updateText" class="number-item">
+                        <span class="text" id="leftTextHead"></span><br>
+                        <span class="panel-heading" id="leftText"></span>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="number-item" align="center">
+                        <div align="center">
+                            <canvas id="main" height="640" width="800" style="border:0">
+
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/static/js/connect4.js"></script>
+<script>
+    function loadRules() {
+        $("#leftTextHead").text("Rules");
+        var rules = "To win Connect Four you must be the first player to get four of your colored checkers in a row either horizontally, vertically or diagonally.";
+        $("#leftText").text(rules)
+    }
+    loadRules();
+    function loadScoreBoard() {
+        if(!document.getElementById("scoreboard")) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    var allJsonObject = xhttp.responseText;
+                    var recordUpdateArea = document.getElementById("updateText");
+                    var taskListReceived = JSON.parse(allJsonObject);
+                    var tableElem = document.createElement("table");
+                    tableElem.setAttribute("class", "table table-bordered");
+                    tableElem.setAttribute("style", "border:1px solid yellow");
+                    tableElem.setAttribute("id", "scoreboard");
+                    recordUpdateArea.appendChild(tableElem);
+                    console.log(taskListReceived);
+                    for (var i = 0; i < taskListReceived.length; i++) {
+                        var curJSON = taskListReceived[i];
+                        // copy
+                        var curRow = document.createElement("tr");
+                        curRow.setAttribute("style", "border:0.3px solid yellow");
+                        var usernameCol = document.createElement("td");
+                        usernameCol.setAttribute("style", "border:0.3px solid yellow");
+                        var movesCol = document.createElement("td");
+                        movesCol.setAttribute("style", "border:0.3px solid yellow");
+                        curRow.appendChild(usernameCol);
+                        curRow.appendChild(movesCol);
+                        usernameCol.textContent = curJSON['username'];
+                        movesCol.textContent = curJSON['score'];
+                        tableElem.appendChild(curRow);
+                    }
+                }
+            };
+            xhttp.open("GET", "/scoreboard/");
+            xhttp.send();
+        }
+    }
+</script>
+</body>
+</html>

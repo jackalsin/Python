@@ -1,0 +1,45 @@
+.page-container {
+    padding: 50px 20px 0px 80px;
+}
+
+.navbar {
+    background-color: #447e9b;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #000; /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #2a7496;
+}
+
+.navbar-default {
+    background-color: #447e9b;
+    border-color: #030033;
+}
+
+.navbar-default .navbar-brand {
+    color: #f5dd5d;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.memo {
+    padding: 0 25px 15px 25px;
+    margin: 5px 5px 25px 5px;
+}
+
+.memo .card-header {
+    background-color: #79aec8;
+}

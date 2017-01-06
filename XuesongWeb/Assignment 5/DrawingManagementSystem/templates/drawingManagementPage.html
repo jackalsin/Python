@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="\static\drawingManagement.js"></script>
+    <script src="\static\jquery-3.1.1.min.js"></script>
+    <title>Online Drawing Management System V0.1</title>
+</head>
+<body>
+    <input id="searchInput" onkeyup="searchInputChange()"><br>
+
+    <select id="DrawingIDList" onchange="drawingInfoListChange();"></select>
+
+    <button onclick="initDrawings();">Initialize Drawing</button>
+    <button onclick="addDrawingInfoToList();">Add Drawing Info to List</button>
+
+
+    <table>
+        <tr>
+            <td>Building Name</td><td><input id="buildingNameInput"></td>
+        </tr>
+        <tr>
+            <td>Constructed Year</td><td><input id="constructedYearInput"></td>
+        </tr>
+        <tr>
+            <td>Contractor</td><td><input id="contractorInput"></td>
+        </tr>
+        <tr>
+            <td>Floor</td><td><input id="floorInput"></td>
+        </tr>
+        <tr>
+            <td>Shop</td><td><input id="shopInput"></td>
+        </tr>
+    </table>
+
+    <button onclick="addDrawing();">Add</button>
+    <button onclick="updateDrawing();">Update</button>
+    <button onclick="deleteDrawing();">Delete</button>
+
+</body>
+</html>
